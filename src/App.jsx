@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+import briefPdf from "./assets/Jason_Guan_Business_Description_OPT.pdf";
 import {
   Mail,
   Github,
@@ -264,7 +265,9 @@ Thanks!`
               Contact <Mail className="h-4 w-4" />
             </button>
             <a
-              href="/Jason_Guan_Business_Description_OPT.pdf"
+              href={briefPdf}
+              target="_blank"
+              rel="noopener noreferrer"
               className="md:col-span-1 inline-flex items-center justify-center gap-2 rounded-xl border border-slate-200 px-5 py-3 text-sm hover:bg-slate-50"
             >
               <Globe className="h-4 w-4" /> Brief
